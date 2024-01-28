@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["available", "pending", "sold"]
+      }
+    }
+  },
+  "required": ["status"]
+}
